@@ -24,7 +24,6 @@ public class SelectApiController {
                 .map(imageService::getImage) // ImageService를 통해 Base64 인코딩
                 .collect(Collectors.toList()); // 결과를 List로 수집
 
-        System.out.println("encodedImages : " + encodedImages);
         return encodedImages;
     }
 
