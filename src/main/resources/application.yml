@@ -1,0 +1,9 @@
+server:
+  port: 7013
+
+aws:
+  s3:
+    bucket-name: img-bucket-2024
+    region: ${AWS_REGION:ap-northeast-2}
+    access-key: ${AWS_ACCESS_KEY_ID}
+    secret-key: ${AWS_SECRET_ACCESS_KEY}
